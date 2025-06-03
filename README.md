@@ -8,7 +8,11 @@ This project benchmarks the training performance of a simple CNN using PyTorch o
 - Accuracy on test set: **53%**
 - Per-class performance also measured
 
-## Upcoming Phases
-- Porting to GPU with CUDA
-- Measuring speedup and profiling memory
-- Quantization and TensorRT optimization
+## Phase 2: GPU Benchmark (CUDA)
+
+- Trained on CIFAR-10 using custom CNN (same architecture as CPU benchmark).
+- Training time: ~111 seconds.
+- Test set accuracy: 53% (2 epochs).
+- CUDA device fully utilized on Google Colab.
+- Full training script and evaluation uploaded.
+
